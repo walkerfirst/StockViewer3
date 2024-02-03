@@ -1,0 +1,13 @@
+<RCC>
+<qresource prefix="/">
+<file>files-and-folders.png</file>
+<file>start.png</file>
+<file>pause.png</file>
+<file>update.png</file>
+<file>1-19122Q926010-L.png</file>
+<file>cloud-download2.png</file>
+<file>1-1912302044060-L.png</file>
+<file>Background.png</file>
+<file>poweroff2.png</file>
+</qresource>
+</RCC>

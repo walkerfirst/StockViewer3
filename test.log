@@ -1,0 +1,40 @@
+
+[2020-12-31 10:57:33,267-test_log-ERROR]: [Error in __main__] msg: name 'u' is not defined
+Traceback (most recent call last):
+  File "D:/project/StockViewer_v3.0/log_test.py", line 20, in wrapper
+    fn(*args, **kwargs)
+  File "D:/project/StockViewer_v3.0/log_test.py", line 32, in tain
+    nat()
+  File "D:/project/StockViewer_v3.0/log_test.py", line 31, in nat
+    print(u)
+NameError: name 'u' is not defined
+
+[2020-12-31 14:13:57,590-test_log-ERROR]: [Error in __main__] msg: 'MainWindow' object has no attribute 'comNum1'
+Traceback (most recent call last):
+  File "D:/project/StockViewer_v3.0/run.py", line 29, in wrapper
+    fn(*args, **kwargs)
+  File "D:/project/StockViewer_v3.0/run.py", line 58, in start
+    win = MainWindow(me)
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 20, in __init__
+    self.initUi()
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 47, in initUi
+    self.MainLayout()
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 157, in MainLayout
+    self.log_dock.setTitleBarWidget(self.comNum1)
+AttributeError: 'MainWindow' object has no attribute 'comNum1'
+
+[2021-01-04 19:37:30,898-test_log-ERROR]: [Error in __main__] msg: 'PyQt5.QtCore.pyqtBoundSignal' object has no attribute 'conncet'
+Traceback (most recent call last):
+  File "D:/project/StockViewer_v3.0/run.py", line 30, in wrapper
+    fn(*args, **kwargs)
+  File "D:/project/StockViewer_v3.0/run.py", line 61, in start
+    win = MainWindow(self.me)
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 20, in __init__
+    self.initUi()
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 46, in initUi
+    self.initTable()
+  File "D:\project\StockViewer_v3.0\MainWindow.py", line 138, in initTable
+    self.table_HX_L = Myhold2(self.mainEngine, account='HX_L')
+  File "D:\project\StockViewer_v3.0\MainQWidgets.py", line 58, in __init__
+    self.mainEngine.tickSignal.conncet(self.setModels)
+AttributeError: 'PyQt5.QtCore.pyqtBoundSignal' object has no attribute 'conncet'
